@@ -8,4 +8,5 @@ def test_for_clean_row():
  
 def test_for_missing_area():
     #Missing Area
+    #Correct way is "assert var is None"
   assert row_to_list("\293,410\n") is None
