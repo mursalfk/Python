@@ -7,4 +7,5 @@ def test_for_clean_row():
 
  
 def test_for_missing_area():
+    #Missing Area
   assert row_to_list("\293,410\n") is None
