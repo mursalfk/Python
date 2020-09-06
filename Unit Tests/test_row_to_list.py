@@ -11,3 +11,7 @@ def test_for_missing_area():
     #Correct way is "assert var is None"
     # don't do like "assert var == None"
   assert row_to_list("\293,410\n") is None
+
+
+def test_for_missing_tab():
+  assert row_to_list("1,463238,765\n") is None
