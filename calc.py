@@ -1,4 +1,4 @@
-#first Calculator
+#first Calculat
 num1 = int(input("Enter the First Number: "))
 num2 = int(input("Enter the First Number: "))
 opr = input("Add, Subtract, Multiply, Divide? Please type the complete word")
